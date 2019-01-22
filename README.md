@@ -1,1 +1,2 @@
-# CS1550_recitation_materials
+# CS1550 recitation materials
+# Spring 2019
