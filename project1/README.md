@@ -25,9 +25,9 @@ In the follwoing steps, we are going to assume that we are using the Pitt accoun
 	cd linux-2.6.23.1
 	```
 - copy the .config file
-	```
-	cp /u/OSLab/original/.config .
-	```
+```
+cp /u/OSLab/original/.config .
+```
 - build
 	```
 	make ARCH=i386 bzImage
