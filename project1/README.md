@@ -196,6 +196,31 @@ make ARCH=i386 bzImage
 
 Currently, GitHub HTTPS comunication is blocked. To setup SSH authentication for GitHub in your thoth.cs.pitt.edu, please follow these steps:
 
+- ssh to thoth.cs.pitt.edu
+```
+ssh mhk36@thoth.cs.pitt.edu
+```
+- Type the following command:
+```
+ssh-keygen
+```
+- When promted for directory and filename for your ssh key, just leave it blank and press Enter to select the default dir and filename
+- Type is a passphrase to secure your SSH key and press Enter
+- Once the SSH key has been generated, type the following command to view your SSH key:
+```
+cat ~/.ssh/id_rsa.pub
+```
+- Now just copy the whole output from the above command
+- Go to GitHub.com and signup/login to your account
+- Choose Settings from top right drop down menu
+- Next, choose the SSH Keys tab from the left hand side menu
+- Click on Create new SSH key
+- Type in a name for your new key (whatever helps you remember)
+- Paste the SSH key that you copied earlier from inside the thoth.cs.pitt.edu machine
+- Click OK to save the new key
+
+Now, whenever you clone or set a remote URL for any of your GitHub repositories, make sure to use the SSH url and not the HTTPS url.
+
 It's good to use a GitHub private repo to maintain your code base as it helps to easily sync all your code files and it provides a powerful versioning system to keep track of all your changes. If you would like to do that, then follow these steps (more detailed instructions are in my Recitation Week 2 [slides](https://github.com/maher460/Pitt_CS1550_recitation_materials/blob/master/week2/CS1550_week_2a_xv6_intro.pdf)):
 
 - signup/login to GitHub.com
@@ -207,7 +232,7 @@ It's good to use a GitHub private repo to maintain your code base as it helps to
 Now, just work on the code on your own local machine. Then, just git add, commit, and push all changes to your private GitHub repo. After that, git pull these changes on the remote thoth machine. Lastly, compile on the thoth machine.
 
 <br>
-
+ßß
 ### Hints and Tricks
 
 - To cleanly close the QEMU virtual machine type:
