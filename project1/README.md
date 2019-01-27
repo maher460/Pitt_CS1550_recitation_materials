@@ -194,15 +194,19 @@ make ARCH=i386 bzImage
 
 ## Step 6 (optional): Using GitHub private repo to maintain your work
 
+Currently, GitHub HTTPS comunication is blocked. To setup SSH authentication for GitHub in your thoth.cs.pitt.edu, please follow these steps:
+
 It's good to use a GitHub private repo to maintain your code base as it helps to easily sync all your code files and it provides a powerful versioning system to keep track of all your changes. If you would like to do that, then follow these steps (more detailed instructions are in my Recitation Week 2 [slides](https://github.com/maher460/Pitt_CS1550_recitation_materials/blob/master/week2/CS1550_week_2a_xv6_intro.pdf)):
 
 - signup/login to GitHub.com
 - create a new __private__ repository (double check that it is private and completely empty)
-- set the git remote origin url of your private linux-2.6.23.1 directory in the AFS folder (accessible from thoth) to the newly created private GitHub repo
+- set the git remote origin url of your private linux-2.6.23.1 directory in the AFS folder (accessible from thoth) to the newly created private GitHub repo (you will have to use the SSH url; for more info see next sextion)
 - git add, commit and push all the code from thoth/linux to your private GitHub repo
 - git clone your private GitHub repo to your own local machine (Mac/Windows/Ubuntu/Whatever)
 
 Now, just work on the code on your own local machine. Then, just git add, commit, and push all changes to your private GitHub repo. After that, git pull these changes on the remote thoth machine. Lastly, compile on the thoth machine.
+
+<br>
 
 ### Hints and Tricks
 
