@@ -1,6 +1,12 @@
+# Pitt CS1550 Project 1
+
+Kindly, find the project description [here](https://github.com/maher460/Pitt_CS1550_recitation_materials/blob/master/project1/project1.pdf). However, please go through the following instructions on how to setup and boot your linux kernel using QEMU.
+
+<br>
+
 # Instructions for setting up QEMU and linux
 
-In the follwoing steps, we are going to assume that we are using the Pitt account mhk36. Obviously, replace this with your Pitt username. Also, we are going to use our private directory inside afs for these steps.
+In the follwoing steps, we are going to assume that we are using the Pitt account mhk36. Obviously, replace this with your own Pitt username. Also, we are going to use our private directory inside afs for these steps.
 
 <br>
 
@@ -39,7 +45,7 @@ make ARCH=i386 bzImage
 
 ## Step 1: Download QEMU for your machine
 
-Note that you will be running QEMU on your own machine in order to test your kernel. QEMU is a virtual machine. So, if your kernel runs on QEMU on your machine, then it should run on QEMU on any machine. Only follow the instructions that is associated with your machine in this section.
+Note that you will be running QEMU on your own machine in order to test your kernel. QEMU is a virtual machine. So, if your kernel runs on QEMU on your machine, then it should run on QEMU on any machine. Only follow the instructions that is associated with your own machine in this section.
 
 ### Windows
 
