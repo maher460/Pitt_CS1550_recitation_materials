@@ -43,9 +43,9 @@ Note that you will be running QEMU on your own machine in order to test your ker
 
 ### Windows
 
-- downlaod QEMU from this [link](https://github.com/maher460/Pitt_CS1550_recitation_materials/blob/master/project1/qemu.zip)
-- unzip qemu.zip using your favorite unzipper
-- open qemu folder and you will see many files 
+- downlaod QEMU from this [link](https://github.com/maher460/Pitt_CS1550_recitation_materials/blob/master/project1/qemu_windows.zip)
+- unzip qemu_windows.zip using your favorite unzipper
+- open qemu_windows folder
 - read the README-en for more info
 - a file "qemu-win.bat" starts QEMU; double click boots Linux on your desktop
 - choose either linux(original) or linux(devel) using keyboard arrow keys and click enter to boot that particular kernel
@@ -60,11 +60,11 @@ Note that you will be running QEMU on your own machine in order to test your ker
 ```
 brew install qemu
 ```
-- download qemu starter script and disk image from this [link](https://github.com/maher460/Pitt_CS1550_recitation_materials/blob/master/project1/qemu-test.zip)
-- unzip qemu-test.zip
-- open the qemu-test directory using Terminal
+- download qemu starter script and disk image from this [link](https://github.com/maher460/Pitt_CS1550_recitation_materials/blob/master/project1/qemu_mac_ubuntu.zip)
+- unzip qemu_mac_ubuntu.zip
+- open the qemu_mac_ubuntu directory using Terminal
 ```
-cd qemu-test
+cd qemu_mac_ubuntu
 ```
 - Run the following command to boot Linux using QEMU:
 ```
@@ -81,11 +81,11 @@ cd qemu-test
 ```
 apt-get install qemu
 ```
-- download qemu starter script and disk image from this [link](https://github.com/maher460/Pitt_CS1550_recitation_materials/blob/master/project1/qemu-test.zip)
-- unzip qemu-test.zip
-- open the qemu-test directory using Terminal
+- download qemu starter script and disk image from this [link](https://github.com/maher460/Pitt_CS1550_recitation_materials/blob/master/project1/qemu_mac_ubuntu.zip)
+- unzip qemu_mac_ubuntu.zip
+- open the qemu_mac_ubuntu directory using Terminal
 ```
-cd qemu-test
+cd qemu_mac_ubuntu
 ```
 - Run the following command to boot Linux using QEMU:
 ```
