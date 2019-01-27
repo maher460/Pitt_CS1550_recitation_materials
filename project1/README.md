@@ -2,6 +2,17 @@
 
 Kindly, find the project description [here](https://github.com/maher460/Pitt_CS1550_recitation_materials/blob/master/project1/project1.pdf). However, please go through the following instructions on how to setup and boot your linux kernel using QEMU.
 
+## Table of Contents:
+
+- [Step 0: Setup the Kernel Source](https://github.com/maher460/Pitt_CS1550_recitation_materials/tree/master/project1#step-0-setup-the-kernel-source)
+- [Step 1: Download QEMU for your machine](https://github.com/maher460/Pitt_CS1550_recitation_materials/tree/master/project1#step-1-download-qemu-for-your-machine)
+- [Step 2: Copy your own kernel files to QEMU](https://github.com/maher460/Pitt_CS1550_recitation_materials/tree/master/project1#step-2-copy-your-own-kernel-files-to-qemu)
+- [Step 3: Install your own kernel in QEMU](https://github.com/maher460/Pitt_CS1550_recitation_materials/tree/master/project1#step-3-install-your-own-kernel-in-qemu)
+- [Step 4: Update the bootloader and then boot into your own kernel](https://github.com/maher460/Pitt_CS1550_recitation_materials/tree/master/project1#step-4-update-the-bootloader-and-then-boot-into-your-own-kernel)
+- [Step 5: Rebuilding your modified kernel and running it](https://github.com/maher460/Pitt_CS1550_recitation_materials/tree/master/project1#step-5-rebuilding-your-modified-kernel-and-running-it)
+- [Step 6 (optional): Using GitHub private repo to maintain your work](https://github.com/maher460/Pitt_CS1550_recitation_materials/tree/master/project1#step-6-optional-using-github-private-repo-to-maintain-your-work)
+- [Hints and Tricks](https://github.com/maher460/Pitt_CS1550_recitation_materials/tree/master/project1#hints-and-tricks)
+
 <br>
 
 # Instructions for setting up QEMU and linux
