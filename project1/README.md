@@ -18,7 +18,7 @@ In the follwoing steps, we are going to assume that we are using the Pitt accoun
 	```
 - extract
 	```
-	tar xfj linux-2.6.23.1.tar.bz2
+tar xfj linux-2.6.23.1.tar.bz2
 	```
 - change into linux-2.6.23.1/ directory
 	```
