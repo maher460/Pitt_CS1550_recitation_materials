@@ -1,4 +1,4 @@
-# Pitt CS1550 Project 1
+# Pitt CS1550 Project 1 (Spring 2019)
 
 Kindly, find the project description [here](https://github.com/maher460/Pitt_CS1550_recitation_materials/blob/master/project1/project1.pdf). However, please go through the following instructions on how to setup and boot your linux kernel using QEMU.
 
