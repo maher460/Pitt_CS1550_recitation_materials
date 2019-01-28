@@ -250,9 +250,9 @@ Now, just work on the code on your own local machine. Then, just git add, commit
 
 <br>
 
-### Hints and Tricks
+### Tips and Tricks
 
-- To cleanly close the QEMU virtual machine type:
+- To cleanly close the QEMU virtual machine type the following command to the command-line prompt while inside the QEMU VM:
 
 ```
 poweroff
