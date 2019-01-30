@@ -257,6 +257,11 @@ Now, just work on the code on your own local machine. Then, just git add, commit
 ```
 poweroff
 ```
+- To use Atom (a cool editor) instead of nano for editing Project 1 files, please check the following video:
+[link](https://pitt.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=0437b1dd-e56f-4cfb-8ac6-a9e5004192d8)
+
+- To use Atom (a cool editor) instead of nano for editing Lab 1 files, please check the following video:
+[link](https://pitt.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=f4e42d33-7480-41ea-80c2-a9e500402b4b)
 
 - To run the QEMU image on linux.cs.pitt.edu instead of your local machine, follow the following steps:
    1. ssh into linux.cs.pitt.edu and cd into the folder where you plan to work on project 1.
