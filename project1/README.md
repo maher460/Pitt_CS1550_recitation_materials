@@ -11,7 +11,7 @@ Kindly, find the project description [here](https://github.com/maher460/Pitt_CS1
 - [Step 4: Update the bootloader and then boot into your own kernel](https://github.com/maher460/Pitt_CS1550_recitation_materials/tree/master/project1#step-4-update-the-bootloader-and-then-boot-into-your-own-kernel)
 - [Step 5: Rebuilding your modified kernel and running it](https://github.com/maher460/Pitt_CS1550_recitation_materials/tree/master/project1#step-5-rebuilding-your-modified-kernel-and-running-it)
 - [Step 6 (optional): Using GitHub private repo to maintain your work](https://github.com/maher460/Pitt_CS1550_recitation_materials/tree/master/project1#step-6-optional-using-github-private-repo-to-maintain-your-work)
-- [Hints and Tricks](https://github.com/maher460/Pitt_CS1550_recitation_materials/tree/master/project1#hints-and-tricks)
+- [Tips and Tricks](https://github.com/maher460/Pitt_CS1550_recitation_materials/tree/master/project1#tips-and-tricks)
 
 <br>
 
@@ -205,7 +205,7 @@ make ARCH=i386 bzImage
 
 ## Step 6 (optional): Using GitHub private repo to maintain your work
 
-It's good to use a GitHub private repo to maintain your code base as it helps to easily sync all your code files and it provides a powerful versioning system to keep track of all your changes. 
+It's good to use a GitHub private repo to maintain your code base as it helps to easily sync all your code files and it provides a powerful versioning system to keep track of all your changes.
 
 ### Setting up GitHub SSH key
 
@@ -257,3 +257,31 @@ Now, just work on the code on your own local machine. Then, just git add, commit
 ```
 poweroff
 ```
+
+- To run the QEMU image on linux.cs.pitt.edu instead of your local machine, follow the following steps:
+   1. ssh into linux.cs.pitt.edu and cd into the folder where you plan to work on project 1.
+   2. Download QEMU starter script and disk image from this [link](https://github.com/maher460/Pitt_CS1550_recitation_materials/blob/master/project1/qemu_mac_ubuntu.zip) using the command:
+
+   ```
+   wget https://github.com/maher460/Pitt_CS1550_recitation_materials/raw/master/project1/qemu_mac_ubuntu.zip
+   ```
+   3.
+   ```
+   unzip qemu_mac_ubuntu.zip
+   ```
+   4. Edit the start.sh file using nano for example and change it to:
+
+   ```
+   nano start.sh
+   ```
+   4. Add ' -curses' to the end of the line so that the file looks like the following:
+   ```
+   #!/bin/sh
+   qemu-system-i386 -hda tty.qcow2 -boot c -curses
+   ```
+
+   5. type
+   ```
+   ./start.sh
+   ```
+   This should run the QEMU virtual machine on linux.cs.pitt.edu.
