@@ -257,6 +257,7 @@ Now, just work on the code on your own local machine. Then, just git add, commit
 ```
 poweroff
 ```
+- To use Viual Studio Code instead of nano for editing Project 1 files, please check the following [link] (https://github.com/BIMseven/cs1550-SFTP-Setup). Thanks to Benjamin Miller!
 - To use Atom (a cool editor) instead of nano for editing Project 1 files, please check the following video:
 [link](https://pitt.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=0437b1dd-e56f-4cfb-8ac6-a9e5004192d8)
 
