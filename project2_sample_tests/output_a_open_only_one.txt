@@ -1,0 +1,10 @@
+The apartment is now empty.
+Agent 1 arrives at time 1.
+Tenant 1 arrives at time 1.
+Agent 1 opens the apartment at time 2
+Tenant 1 inspects the apartment at time 2.
+Agent 2 arrives at time 2.
+Agent 2 opens the apartment for inspection at time 2.
+
+
+Error: only one Agent can open an apartment at a time

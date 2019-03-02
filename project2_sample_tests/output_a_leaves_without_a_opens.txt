@@ -1,0 +1,12 @@
+The apartment is now empty.
+Agent 1 arrives at time 1.
+Tenant 1 arrives at time 1.
+Tenant 2 arrives at time 1.
+Tenant 1 inspects the apartment at  time 2.
+Tenant 2 inspects the apartment at  time 2.
+Tenant 1 leaves the apartment at time 4.
+Tenant 2 leaves the apartment at time 4.
+Agent 1 leaves at time 4.
+
+
+Error: 'leaves' called for Agent 1 without 'opens' being called

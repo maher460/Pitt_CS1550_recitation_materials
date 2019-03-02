@@ -1,0 +1,7 @@
+The apartment is now empty.
+Agent 1 arrives at time 1.
+Tenant 1 arrives at time 1.
+Agent 1 arrives at time 2.
+
+
+Error: 'arrives' called for Agent 1 multiple times.

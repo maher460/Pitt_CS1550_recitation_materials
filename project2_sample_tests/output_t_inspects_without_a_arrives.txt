@@ -1,0 +1,6 @@
+The apartment is now empty.
+Tenant 1 arrives at time 0.
+Tenant 1 inspects the apartment at time 0.
+
+
+Error: Tenant 1 trying to inspect an apartment without Agent

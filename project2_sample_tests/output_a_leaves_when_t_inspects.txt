@@ -1,0 +1,12 @@
+The apartment is now empty.
+Agent 1 arrives at time 1.
+Tenant 1 arrives at time 1.
+Tenant 2 arrives at time 1.
+Agent 1 opens the apartment at time 2.
+Tenant 1 inspects the apartment at  time 2.
+Tenant 2 inspects the apartment at  time 2.
+Tenant 2 leaves at time 4.
+Agent 1 leaves at time 4.
+
+
+Error: Agent 1 trying to leave while tenants are still viewing the apartment

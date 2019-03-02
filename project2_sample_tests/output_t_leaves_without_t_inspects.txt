@@ -1,0 +1,10 @@
+The apartment is now empty.
+Agent 1 arrives at time 1.
+Tenant 1 arrives at time 1.
+Tenant 2 arrives at time 1.
+Tenant 1 leaves at  time 2.
+Tenant 2 leaves at time 2.
+Agent 1 leaves at time 2.
+
+
+Error: 'leaves' called for Tenant 1 without 'inspects' being called
